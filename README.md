@@ -2,6 +2,7 @@
 
 Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https://cotacao77seguros.com.br/)**, desenvolvida com **HTML, CSS e JavaScript**. A página permite que os usuários solicitem cotações de seguros de forma rápida e prática, com integrações à **API do WhatsApp** e **Google Sheets App Script** para registro automatizado de informações.
 
+
 ## 📌 Funcionalidades
 - 🌎 **Interface responsiva** e otimizada para dispositivos móveis.
 - 🚀 **Design moderno e intuitivo** para melhor experiência do usuário.
@@ -9,16 +10,19 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
 - 📲 **Integração direta com API WhatsApp** para envio e contato imediato.
 - ⚡ **Carregamento otimizado** para garantir maior velocidade.
 
+
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** & **CSS3** (Estrutura e Estilização)
 - **JavaScript** (Interatividade e funcionalidades dinâmicas)
 - **Google Sheets App Script** (Registro automatizado de dados)
 - **API do WhatsApp** (Redirecionamento de mensagens)
 
+
 ## 📸 Demonstração
 ![Cotação 77 Seguros](https://github.com/user-attachments/assets/e98fc4b4-af33-4c04-82b5-f7205553d46e)
 
 [Acesse a Landing Page aqui](https://cotacao77seguros.com.br/)
+
 
 ## 📂 Estrutura do Projeto
 ```
@@ -30,6 +34,7 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
     ├── index.html   # Estrutura da Landing Page
     └── README.md    # Documentação do projeto
 ```
+
 
 ## 🚀 Como Rodar o Projeto
 1. Clone o repositório:
