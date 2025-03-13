@@ -34,10 +34,9 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
 ```
 
 ## 📬 Contato
-Caso tenha alguma dúvida ou sugestão, entre em contato:
+Caso tenha alguma dúvida ou interesse, entre em contato:
 📧 Email: seu-email@email.com  
-💼 [LinkedIn](https://linkedin.com/in/seu-perfil)  
-🐙 [GitHub](https://github.com/seu-usuario)
+💼 [LinkedIn](https://linkedin.com/in/thiago-mira)  
 
 ---
 
