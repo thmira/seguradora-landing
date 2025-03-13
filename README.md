@@ -36,13 +36,6 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
 ```
 
 
-## 🚀 Como Rodar o Projeto
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
-
 ## 📬 Contato
 Caso tenha alguma sugestão ou interesse, entre em contato:
 📧 Email: thiago.msimandi@gmail.com  
