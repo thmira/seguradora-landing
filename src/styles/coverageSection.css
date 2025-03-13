@@ -1,0 +1,171 @@
+.coverage {
+    width: 100%;
+    min-height: 80vh;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #deeeff 0%, #5f91c7 100%);
+}
+
+.coverage .title {
+    color: #1A1A2E;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 175px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card .subtitle {
+    color: #1A1A2E;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.card .card-subtitle {
+    background-color: #c0d8f2;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #007bff;
+    padding: 5px;
+}
+
+.card p {
+    color: #444;
+    margin: 8px 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-quote, .btn-details {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-quote {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-details {
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+}
+
+.btn-details::after {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.btn-quote:hover {
+    background-color: #0056b3;
+}
+
+.btn-details:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .coverage {
+        min-height: auto;
+        padding: 50px 0;
+    }
+
+    .coverage .title {
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+
+    .cards-container {
+        gap: 20px;
+        padding: 0 15px;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .card img {
+        width: 150px;
+    }
+
+    .card .subtitle {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .coverage {
+        min-height: auto;
+        padding: 40px 0;
+    }
+
+    .coverage .title {
+        font-size: 1.5em;
+        margin-bottom: 25px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card img {
+        width: 130px;
+    }
+
+    .card .subtitle {
+        font-size: 1.2em;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card p {
+        font-size: 0.9em;
+        padding-left: 10px;
+    }
+
+    .btn-quote, .btn-details {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    .cards-container {
+        padding: 0 10px;
+    }
+}
