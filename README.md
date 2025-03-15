@@ -20,8 +20,6 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
 
 ![Novo Projeto](https://github.com/user-attachments/assets/4c079fa2-2fdb-46ea-bd7c-e9c2b15d1560)
 
-[Acesse a Landing Page aqui](https://cotacao77seguros.com.br/)
-
 ## 📂 Estrutura do Projeto
 ```
 /
