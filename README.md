@@ -30,24 +30,17 @@ Este repositório contém a Landing Page do site **[Cotação 77 Seguros](https:
 /
 └── /src
     ├── /assets      # Imagens e recursos visuais
+    ├── /pages       # Organização das rotas e páginas
     ├── /styles      # Estilos e responsividade
     ├── /script      # Lógica de interação e integração com APIs
     ├── index.html   # Estrutura da Landing Page
     └── README.md    # Documentação do projeto
 ```
 
-## 🚀 Como Rodar o Projeto
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
-
 ## 📬 Contato
 Caso tenha alguma dúvida ou sugestão, entre em contato:
 📧 Email: seu-email@email.com  
-💼 [LinkedIn](https://linkedin.com/in/seu-perfil)  
-🐙 [GitHub](https://github.com/seu-usuario)
+💼 [LinkedIn]([https://www.linkedin.com/in/thiagomira/])  
 
 ---
 
