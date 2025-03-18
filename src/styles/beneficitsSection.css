@@ -1,0 +1,95 @@
+.beneficts {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 6rem;
+    background: linear-gradient(135deg, #5f91c7 0%, #006dac 100%);
+}
+
+.beneficts-image {
+    flex: 1;
+}
+
+.beneficts-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.beneficts-content {
+    background-color: #096999;
+    color: white;
+    border-radius: 20px;
+    padding: 2rem;
+    flex: 1;
+}
+
+.beneficts-content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.benefit-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.benefit-item i {
+    font-size: 2rem;
+    background-color: white;
+    color: #096999;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-item span {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.btn-contrate {
+    background-color: #00cfab;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+    width: 70%;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 810px) {
+    .beneficts {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .beneficts img {
+        display: none;
+    }
+
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
