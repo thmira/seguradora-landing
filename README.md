@@ -30,13 +30,15 @@ Este repositório contém a Landing Page do site, desenvolvida com **HTML, CSS e
 ## 📬 Contato
 Caso tenha alguma dúvida ou sugestão, entre em contato:
 📧 Email: thiago.msimandi@gmail.com  
-💼 [LinkedIn]([https://www.linkedin.com/in/thiagomira/])  
 
 ## 📸 Demonstração
 
 ![Captura de tela de 2025-03-18 11-06-40](https://github.com/user-attachments/assets/458f654d-8f85-4f6e-9dab-90f23ab577af)
+
 ![Captura de tela de 2025-03-18 11-06-53](https://github.com/user-attachments/assets/96b5a3d0-a1e4-40a3-a67d-2da267b4a9b3)
+
 ![Captura de tela de 2025-03-18 11-07-04](https://github.com/user-attachments/assets/9064cd2e-ed65-4b60-ba2a-642a4ca83edc)
+
 ![Captura de tela de 2025-03-18 11-07-37](https://github.com/user-attachments/assets/16f04d1c-2ef7-4e19-8510-eeb22ae52c82)
 
 ---
