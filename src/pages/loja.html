@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon e Título da Página -->
+    <link rel="icon" type="image/x-icon" href="/src/assets/77_only.png">
+    <title>77Seguros | Loja</title>
+
+    <!-- Chamada dos arquivos de estilização -->
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <link rel="stylesheet" href="/src/styles/headerSection.css">
+    <link rel="stylesheet" href="/src/styles/homeSection.css">
+    <link rel="stylesheet" href="/src/styles/coverageSection.css">
+    <link rel="stylesheet" href="/src/styles/beneficitsSection.css">
+    <link rel="stylesheet" href="/src/styles/formsSection.css">
+    <link rel="stylesheet" href="/src/styles/footerSection.css">
+
+    <!-- Chamada do jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"></script>
+
+    <!-- Chamada do icones FontAwesome -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegação -->
+        <nav id="navbar">
+            <img src="/src/assets/77_white.png" id="nav_logo"alt="logo 77 seguros">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#coverage">cobertura</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#beneficts">beneficios</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">cotar seguro</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <!-- Menu de navegação mobile -->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#coverage">cobertura</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#beneficts">beneficios</a>
+                </li>
+            </ul>
+            
+            <button class="btn-default">cotar seguro</button>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main id="content">
+        <!-- Conteúdo da seção Home -->
+        <section id="home">
+            <!-- Conteúdo da área CTA -->
+            <div id="cta">
+                <h1 class="title">Seguro Auto que entende de liberdade.</h1>
+                
+                <p class="description">
+                    <span class="badges">
+                        <i class="fas fa-shield-alt"><span>Autorizado pela Susep</span></i>
+                        <i class="fas fa-award"><span>1° Seguradora Digital</span></i>
+                    </span>
+                    <i class="fas fa-check"><span>Ajuste das coberturas direto no app</span></i>
+                    <i class="fas fa-check"><span>Sem carência e sem fidelidade</span></i>
+                    <i class="fas fa-check"><span>Assistência 24h em todo o Brasil</span></i> 
+                    <i class="fas fa-check"><span>Proteção completa: de roubo a danos a terceiros</span></i> 
+                </p>
+
+                <div class="cta_button">
+                    <a href="#forms-section" class="btn-default">Faça sua cotação agora!</a>
+                </div>
+            </div>
+
+            <!-- Conteúdo da área Banner -->
+            <div id="banner">
+                <img src="/src/assets/cta_img.jpg" alt="banner">
+                <div class="shape">
+                    <h1 class="title_shape">20% OFF</h1>
+                    <p class="description_shape">Na 1ª mensalidade para novos clientes</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conteúdo da seção Cobertura -->
+        <section id="coverage" class="coverage">
+            <h1 class="title">Atendemos a sua demanda!</h1>
+            
+             <!-- Cards da seção Cobertura -->
+            <div class="cards-container">
+                <!-- Card 01 Carros -->
+                <div class="card">
+                    <img src="/src/assets/card01_carros.png" alt="Carro">
+                    <h2 class="subtitle">Carros</h2>
+                    <h3 class="card-subtitle">SEGURO VEICULAR 77</h3>
+                    <p><i class="fas fa-check"></i> Carros de passeio</p>
+                    <p><i class="fas fa-check"></i> Carros de leilão</p>
+                    <p><i class="fas fa-check"></i> Carros de aplicativo</p>
+                    <div class="card-buttons">
+                        <button class="btn-quote">Fazer Cotação</button>
+                        <button class="btn-details" onclick="location.href='#beneficts'">Ver Detalhes <i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Card 02 Motos -->
+                <div class="card">
+                    <img src="/src/assets/card02_motos.png" alt="Moto">
+                    <h2 class="subtitle">Motos</h2>
+                    <h3 class="card-subtitle">SEGURO VEICULAR 77</h3>
+                    <p><i class="fas fa-check"></i> Todas as cilindradas</p>
+                    <p><i class="fas fa-check"></i> Motos de aplicativo</p>
+                    <p><i class="fas fa-check"></i> Motos de delivery</p>
+                    <div class="card-buttons">
+                        <button class="btn-quote">Fazer Cotação</button>
+                        <button class="btn-details" onclick="location.href='#beneficts'">Ver Detalhes <i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Card 03 Utilitários -->
+                <div class="card">
+                    <img src="/src/assets/card03_utilitarios.png" alt="Utilitário">
+                    <h2 class="subtitle">Utilitários</h2>
+                    <h3 class="card-subtitle">SEGURO VEICULAR 77</h3>
+                    <p><i class="fas fa-check"></i> SUV</p>
+                    <p><i class="fas fa-check"></i> Caminhões</p>
+                    <p><i class="fas fa-check"></i> Vans de carga</p>
+                    <div class="card-buttons">
+                        <button class="btn-quote">Fazer Cotação</button>
+                        <button class="btn-details" onclick="location.href='#beneficts'">Ver Detalhes <i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                </div>
+
+                <!-- Card 04 Caminhões -->
+                <div class="card">
+                    <img src="/src/assets/card04_caminhoes.png" alt="Caminhão">
+                    <h2 class="subtitle">Caminhões</h2>
+                    <h3 class="card-subtitle">SEGURO VEICULAR 77</h3>
+                    <p><i class="fas fa-check"></i> Cavalo mecânico</p>
+                    <p><i class="fas fa-check"></i> Agregados</p>
+                    <p><i class="fas fa-check"></i> Implementos</p>
+                    <div class="card-buttons">
+                        <button class="btn-quote">Fazer Cotação</button>
+                        <button class="btn-details" onclick="location.href='#beneficts'">Ver Detalhes <i class="fa-solid fa-chevron-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Conteúdo da seção Beneficios -->
+        <section id="beneficts" class="beneficts">
+            <div class="beneficts-image">
+                <img src="/src/assets/beneficios_img.png" alt="Veículos">
+            </div>
+            
+            <div class="beneficts-content">
+                <h1>Nós oferecemos cobertura total ao seu veículo!</h1>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Proteção contra furto e roubo</span>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i class="fas fa-id-card"></i>
+                        <span>Sem análise condutor</span>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i class="fas fa-wrench"></i>
+                        <span>Danos a veículos terceiros</span>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Pane elétrica e mecânica</span>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>Fenômenos da Natureza</span>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>Cobertura Nacional</span>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-car"></i>
+                        <span>Carro reserva</span>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <i class="fas fa-car-crash"></i>
+                        <span>Colisão</span>
+                    </div>
+                </div>
+                <button class="btn-contrate">CONTRATE AGORA</button>
+            </div>
+        </section>
+
+        <section class="forms">
+            <div class="form-container">
+                <img src="/src/assets/77_blue.png" alt="Formulário" class="logo-desktop">
+                <img src="/src/assets/77_only.png" alt="Formulário" class="logo-mobile">
+
+                <!-- Indicador de progresso -->
+                <div class="progress-steps">
+                    <div class="step active" data-step="1">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="step" data-step="2">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="step" data-step="3">
+                        <i class="fas fa-store"></i>
+                    </div>
+                </div>
+
+                <form id="whatsappForm">
+                    <div class="form-steps-container">
+                        <div class="form-steps-wrapper">
+                            <!-- Primeira etapa - "Dados do Veiculo"-->
+                            <div class="form-step step-1 active">
+                                <div class="form-group">
+                                    <label for="placa">PLACA DO VEÍCULO <span class="required">*</span></label>
+                                    <input type="text" id="placa" name="placa" placeholder="AAA-0000" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="tipoVeiculo">TIPO DE VEÍCULO <span class="required">*</span></label>
+                                    <select id="tipoVeiculo" name="tipoVeiculo" required>
+                                        <option value="">Selecione o tipo</option>
+                                        <option value="carro">Carro</option>
+                                        <option value="moto">Moto</option>
+                                        <option value="van">Van</option>
+                                        <option value="caminhao">Caminhão</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="usoVeiculo">USO DO VEÍCULO <span class="required">*</span></label>
+                                    <select id="usoVeiculo" name="usoVeiculo" required>
+                                        <option value="">Selecione o uso</option>
+                                        <option value="lazer">Lazer</option>
+                                        <option value="aplicativo">Motorista Aplicativo</option>
+                                        <option value="mercadorias">Transporte Mercadorias</option>
+                                        <option value="taxi">Táxi</option>
+                                        <option value="escolar">Transporte Escolar</option>
+                                        <option value="autoEscola">Auto Escola</option>
+                                        <option value="locadora">Locadora</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="pernoite">PERNOITE DO CARRO <span class="required">*</span></label>
+                                    <select id="pernoite" name="pernoite" required>
+                                        <option value="">Selecione onde pernoita</option>
+                                        <option value="residencia">Garagem na Residência</option>
+                                        <option value="separada">Garagem Separada</option>
+                                        <option value="rua">Estacionado na Rua</option>
+                                    </select>
+                                </div>
+
+                                <button type="button" class="btn-primary next-step">Próximo</button>
+                            </div>
+
+                            <!-- Segunda etapa - "Dados Pessoais" -->
+                            <div class="form-step step-2">
+                                <div class="form-group">
+                                    <label for="nome">NOME COMPLETO <span class="required">*</span></label>
+                                    <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="cpf">CPF <span class="required">*</span></label>
+                                    <input type="text" id="cpf" name="cpf" placeholder="Informe seu CPF" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="telefone">TELEFONE CELULAR <span class="required">*</span></label>
+                                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone com DDD" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">E-MAIL <span class="required">*</span></label>
+                                    <input type="email" id="email" name="email" placeholder="Digite seu melhor e-mail" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="cep">CEP <span class="required">*</span></label>
+                                    <input type="text" id="cep" name="cep" placeholder="Informe seu CEP" required>
+                                </div>
+
+                                <div class="form-buttons">
+                                    <button type="button" class="btn-secondary prev-step">Voltar</button>
+                                    <button type="button" class="btn-primary next-step">Próximo</button>
+                                </div>
+                            </div>
+
+                            <!-- Nova terceira etapa - Dados da Loja -->
+                            <div class="form-step step-3">
+                                <div class="form-group">
+                                    <label for="nomeLoja">NOME DA LOJA <span class="required">*</span></label>
+                                    <input type="text" id="nomeLoja" name="nomeLoja" placeholder="Nome da loja" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="nomeVendedor">NOME DO VENDEDOR <span class="required">*</span></label>
+                                    <input type="text" id="nomeVendedor" name="nomeVendedor" placeholder="Nome do vendedor" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="telefoneVendedor">TELEFONE DO VENDEDOR <span class="required">*</span></label>
+                                    <input type="tel" id="telefoneVendedor" name="telefoneVendedor" placeholder="Telefone do vendedor" required>
+                                </div>
+
+                                <div class="form-buttons">
+                                    <button type="button" class="btn-secondary prev-step">Voltar</button>
+                                    <button type="submit" class="btn-primary">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer da página -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Endereço</h3>
+                <p>Avenida Marechal Tito, 2202 - São Miguel Paulista, São Paulo - SP, 08010-090</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>77Seguros todos os direitos reservados. 2025 ©</p>
+        </div>
+    </footer>
+
+    <!-- Chamada dos scripts -->
+    <script src="/src/javascript/script.js"></script>
+    <script src="/src/javascript/formHandlerLoja.js"></script>
+    <script src="/src/javascript/navHandler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</body>
+
+</html>
